@@ -1,0 +1,11 @@
+.footerDiv {
+    background-image: linear-gradient(to bottom, #B5B4B4, #E5C0B3);
+    /* background-color: #2947ad; */
+    position: absolute;
+    bottom: 0;
+    top: 50rem;
+    width: 100vw;
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+  }

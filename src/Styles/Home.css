@@ -1,0 +1,16 @@
+.homeDiv {
+}
+.quoteDiv {
+  text-align: center;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  padding-top: 7%;
+  color: rgb(156, 84, 62);
+  font-family: Brush Script MT;
+  font-size: 20px;
+}
+h3 {
+  padding-left: 10px;
+  color: rgb(197, 117, 92);
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
