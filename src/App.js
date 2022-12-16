@@ -14,7 +14,7 @@ class App extends Component {
       <div>
         <main>
           <Routes>
-            <Route path="home" element={<Home exact={true} />}></Route>
+            <Route path="home" element={<Home />}></Route>
             <Route path="/" element={<Navigate to="/home" />} />
           </Routes>
         </main>
