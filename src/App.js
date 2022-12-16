@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer";
@@ -13,11 +13,10 @@ class App extends Component {
     return (
       <div>
         <main>
-          
-            <Routes>
-              <Route path="home" element={<Home />}></Route>
-              <Route path="/" element={<Navigate replace to="/home" />} />
-            </Routes>
+          <Routes>
+            <Route path="home" element={<Home />}></Route>
+            <Route path="/" element={<Navigate replace to="/home" />} />
+          </Routes>
         </main>
         <Footer />
       </div>
