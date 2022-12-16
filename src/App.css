@@ -2,7 +2,7 @@ main {
   padding-bottom: 15rem;
 }
 main::after {
-  background: url("./Images/music1.jpg");
+  /* background: url("./Images/music1.jpg"); */
   content: "";
   opacity: 0.3;
   height: 50rem;
